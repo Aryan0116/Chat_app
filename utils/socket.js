@@ -4,7 +4,7 @@ const getServerUrl = () => {
         return 'http://localhost:3000';
     }
     // Replace this with your Render.com URL once deployed
-    return 'https://your-app-name.onrender.com';
+    return 'https://chat-app-zev6.onrender.com';
 };
 
 const socket = io(getServerUrl());
