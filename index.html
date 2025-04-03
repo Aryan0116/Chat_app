@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Real-time chat and video application with room support">
+    <meta name="keywords" content="chat, video chat, real-time, messaging, rooms">
+    <meta property="og:title" content="Real-time Chat & Video App">
+    <meta property="og:description" content="Join chat rooms and communicate with text and video in real-time">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Real-time Chat & Video App">
+    <meta name="twitter:description" content="Join chat rooms and communicate with text and video in real-time">
+    <title>Real-time Chat & Video App</title>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/chat.css" rel="stylesheet">
+    <link href="styles/video.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/JoinRoom.js"></script>
+    <script type="text/babel" src="components/ChatRoom.js"></script>
+    <script type="text/babel" src="components/MessageList.js"></script>
+    <script type="text/babel" src="components/MessageInput.js"></script>
+    <script type="text/babel" src="components/UserList.js"></script>
+    <script type="text/babel" src="components/VideoChat.js"></script>
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="utils/socket.js"></script>
+    <script type="text/babel" src="utils/webrtc.js"></script>
+    <script type="text/babel" src="app.js"></script>
+    <script type="text/babel" src="server/server.js"></script>
+</body>
+</html>

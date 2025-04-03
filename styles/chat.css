@@ -1,0 +1,29 @@
+.message-bubble {
+    max-width: 70%;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 8px 0;
+    word-wrap: break-word;
+}
+
+.message-image {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.online-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.room-code {
+    font-family: monospace;
+    background-color: #e2e8f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
